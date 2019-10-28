@@ -5,8 +5,16 @@ Libft [subject](https://github.com/bclaudios/42-Libft/blob/master/libft.en.pdf)
 ## Grade
 125/100 ✅ (11-19-2018)
 ## Languages
-- "Makefile"
 - C
+- "Makefile"
+## Usage
+``` 
+cd ./library
+make          // Compile the library
+make clean    // Delete all .o files
+make fclean   // Delete all .o files and the compiled library
+make re       // make fclean && make
+```
 ## Functions List
 ### Libc functions:
 - `memset()`
